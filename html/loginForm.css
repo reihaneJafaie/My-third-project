@@ -1,0 +1,90 @@
+body{
+    background-color: #F6E6CB;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+}
+
+.contaner{
+    width: 1200px;
+    margin: auto;
+
+    margin-top: 40px;
+    position: relative;
+}
+
+img{
+    width: 35%;
+}
+h3{
+   position: absolute;
+   top: 160px;
+   right: 0px;
+   width: 50%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    background-color: rgb(45, 155, 219);    
+    color: #F6E6CB;
+    padding-left: 10px;
+    
+}
+
+form{
+    position:absolute;
+    top: 300px;
+    right: 150px;
+    
+}
+#form-login {
+    position: relative;
+}
+.inp {
+    padding: 10px;
+    background-color: #2d9bdb88;
+    
+    margin: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+label{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color :#2d9bdb88 ;
+}
+#submit{
+    position: absolute;
+    top:130px;
+    left: 83px;
+    padding: 6px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgba(45, 155, 219, 0.795);
+    color: #F6E6CB;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: rgb(45, 155, 219);;
+}
+
+/*#eyeOpen{
+    position: absolute;
+    left: 370px;
+    top:78px;
+    color:rgb(5, 12, 116);
+    cursor: pointer;
+}*/
+#eyeOpen{
+    width: 20px;
+    position: absolute;
+    left: 370px;
+    top:76px;
+    cursor: pointer;
+    opacity: 0.8;
+    display: none;
+}
+

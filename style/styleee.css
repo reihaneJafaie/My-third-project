@@ -1,0 +1,347 @@
+body{
+    background-color: ;
+}
+.contaner{
+    width: 1200px;
+    margin: auto;
+    
+}
+nav{
+    height: 100px;
+    
+    margin: auto;
+    
+}
+nav ul li {
+    display: inline;
+    position: relative;
+    top:10px;
+    
+}
+#li1{
+    position: absolute;
+    left:300px;
+}
+#li2{
+    position: absolute;
+    left: 550px;
+}
+#li3{
+    position: absolute;
+    left:850px ;
+}
+#li4{
+    position: absolute;
+   left:1150px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 12pt;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+
+.log{
+    float: right;
+    background-color: #DAD0C2;
+    width: 150px;
+    border-radius: 20px;
+    right:250px;
+    cursor: pointer;
+    color: #926464;
+    font-size: 18px;;
+    
+}
+#login{
+    position: absolute;
+    top:100px;
+    right: 350px;
+
+}
+#singup{
+    position: absolute;
+    top:100px;
+    right: 200px;
+
+
+}
+
+
+
+nav img {
+
+    width: 1200px;
+    margin-top: 30px;
+    
+   
+    
+}
+
+.title{
+    padding-top: 310px;
+    color:#926464;
+    width: 100%;
+    margin: auto; 
+    text-align: center;
+   
+}
+
+.title h1{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 33px;
+    letter-spacing: 1.4px;
+    word-spacing: -3.4px;
+    color: #926464;
+    font-weight: 400;
+    text-decoration: rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: capitalize;
+}
+
+/** قسمت اول آرتیکل  . جا به جایی ها**/
+.article1{
+    width: 100%;
+    height: 730px;
+    background-color: #e409d200;
+    position: relative;
+    top:-20px;
+    
+    
+}
+
+#post1{
+    position:absolute;
+
+}
+
+ #img1 {
+    width: 250px;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+#text1{
+    background-color: #F4DFD0;
+    width: 250px;
+    height: 170px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+
+
+#post2{
+    width: 350px;
+    position: absolute;
+    top: 350px;
+    left:280px;
+
+}
+#img2{
+    width: 350px;
+}
+
+#text2{
+    background-color: #F4DFD0;
+    padding-left: 5px;
+    height: 120px;
+    line-height: 20px;
+}
+#post3{
+    width: 270px;
+   position: absolute;
+    top:350px;
+    left: 650px;; 
+}
+#img3{
+    width: 270px;
+}
+
+#text3{
+    background-color: #F4DFD0;
+    padding-left: 5px;
+    height: 120px;
+    line-height: 20px;
+
+}
+
+#post4{
+    width: 250px;
+   position: absolute;
+    top:30px;
+    right: 10px;
+}
+#img4{
+    width: 250px;
+}
+
+#text4{
+    background-color: #F4DFD0;
+   padding-left: 5px;
+    height: 120px;
+    line-height: 20px;
+
+}
+.js{
+    position:absolute;
+    top:50px;
+    left:285px;
+    width: 620px;
+    height: 250px;
+    background-color:rgb(218, 208, 195) ;
+    text-align: center;
+    padding-top:20px;
+  
+    text-align: left;
+    padding: 10px;
+    font-size: 18px;
+    box-shadow: inset 0px 0px 25px 0px rgb(241, 209, 160);
+    
+
+
+}
+
+.titles h1{
+
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 20px;
+    letter-spacing: 1.4px;
+    word-spacing: -2.2px;
+    color: #926464;
+    font-weight: bold;
+    text-decoration:  rgb(146, 100, 100);
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    
+}
+    
+
+.titles h2{
+
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 14px;
+    letter-spacing: 0px;
+    word-spacing: 6px;
+    color: rgb(146, 100, 100);
+    font-weight: 400;
+    text-decoration: rgb(146, 100, 100);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    line-height: 22px;
+
+}
+
+
+.todo{
+    margin-top:20px ;
+    width: 270px;
+    height: 25px;
+    border-radius: 10px;
+    position: relative;
+    left:300px;
+    top:-55px;
+}
+.todo:focus{
+    outline: none;
+    border-color: #926464;
+}
+
+#tasks ul {
+    
+    position: relative;
+    left: 50px;
+    top:-30px;
+}
+
+#tasks ul li{
+    width: 350px;
+    line-height: 30px;
+    border-bottom: 1px inset #926464;
+
+    
+}
+#total{
+    position: absolute;
+    left: 550px;
+    top:230px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    letter-spacing: -0.8px;
+    word-spacing: 0.8px;
+    color: #926464;
+    font-weight: 400;
+    text-decoration: rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: capitalize;
+
+}
+
+
+
+/** زیبا سازی قسمت اول ارتیکل**/
+
+.article1 img:hover {
+    border-radius: 20px;
+    transition: 1s;
+}
+
+
+/*آرتیکل دوم*/
+
+.point{
+    margin: 50px;
+}
+.imgpoint{
+    width: 200px;
+    padding-left: 2px;
+    display: inline;
+    box-sizing: border-box;
+    
+
+   
+}
+.imgpoint:hover{
+    box-sizing: border-box;
+}
+
+.textpoint{
+    float: right;
+    width: 81.6%;
+    height: 200px;
+    background-color: #FBF8F1;
+    border-radius:0px 20px 20px 0px;
+    box-sizing: border-box;
+    padding: 30px;
+    line-height: 20px;
+    font-size: 14pt;
+    -webkit-box-shadow: 0px 0px 34px 5px rgba(122, 106, 106, 0.64); 
+    box-shadow: 0px 0px 34px 5px rgba(184, 162, 162, 0.64);
+
+ }
+
+ .headingpoint{
+     font-size: 18pt;
+     color:#e4bb8d ;
+     position: relative;
+     top:-10px;
+     
+ }
+
+ .point span{
+     float: right;
+ }
+ .point span a{
+     text-decoration: none;
+     color: #a77b4a;
+ }
+ .point span a:hover{
+     text-shadow:4px -1px 19px #f8bebe ;
+ }
+
+ 
